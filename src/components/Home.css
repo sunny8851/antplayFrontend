@@ -1,0 +1,19 @@
+/* SimpleTable.css */
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 20px 0;
+}
+
+th {
+  background: #f2f2f2;
+  padding: 10px;
+  border-bottom: 1px solid #dddddd;
+  text-align: left;
+}
+
+td {
+  padding: 10px;
+  border-bottom: 1px solid #dddddd;
+}
