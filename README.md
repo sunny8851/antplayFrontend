@@ -29,4 +29,3 @@ Add, update, or delete employee records.
 
 Logout:
 Logout to securely end your session.
-
