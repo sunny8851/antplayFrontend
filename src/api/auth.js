@@ -1,9 +1,10 @@
 import axios from "axios";
 
+const apiUrl = process.env.REACT_APP_API_KEY;
 export function SignupApi(onSignUpSuccess, onSignUpFailure, values) {
   console.log(values);
   axios
-    .post("http://localhost:5000/user/signup", { ...values })
+    .post(`${apiUrl}/user/signup`, { ...values })
     .then((response) => {
       onSignUpSuccess(response);
     })
@@ -14,7 +15,7 @@ export function SignupApi(onSignUpSuccess, onSignUpFailure, values) {
 export function LoginApi(onLoginSuccess, onLoginFailure, values) {
   console.log(values);
   axios
-    .post("http://localhost:5000/user/login", { ...values })
+    .post(`${apiUrl}/user/login`, { ...values })
     .then((response) => {
       onLoginSuccess(response);
     })
