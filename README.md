@@ -10,7 +10,7 @@ Ant Design
 Tailwind css
 
 //Setup and installation instructions
-git clone https://github.com/sunny8851/anyplayBackend.git
+git clone https://github.com/sunny8851/anyplayFrontend.git
 npm install
 npm start
 
